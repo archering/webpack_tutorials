@@ -68,6 +68,7 @@ webpack only understands JavaScript and JSON files. Loaders allow webpack to pro
 
 loader的标准设置形式就两个属性： test ，use
 
+
     module.exports = {
         output: {
             filename: 'my-first-webpack.bundle.js'
