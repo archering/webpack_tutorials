@@ -35,6 +35,10 @@
 
 从4版本开始，webpack增加了一个mode配置，需要指明是development 还是 production
 
+#### production 模式下 webpack 会对代码进行优化，如减小代码体积，删除只在开发环境用到的代码。
+
+> 其实是因为 production 的默认设置 会对文件进行压缩合并
+
 配置文件的基本格式如下：
 
     module.exports = {
